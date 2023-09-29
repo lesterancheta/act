@@ -28,7 +28,21 @@
 <!-- Top -->
 <!-- Main -->
 <div id="main">
-  <?= $this->include('include/body') ?>
+
+  <div class="shell">
+    <!-- Search, etc -->
+    <div class="options">
+      <div class="search">
+        <form action="#" method="post">
+          <span class="field">
+          <input type="text" class="blink" value="SEARCH" title="SEARCH" />
+          </span>
+          <input type="text" class="search-submit" value="GO" />
+        </form>
+      </div>
+      <span class="left"><a href="#">Advanced Search</a></span>
+      <div class="right"> <span class="cart"> <a href="#" class="cart-ico">&nbsp;</a> <strong>$0.00</strong> </span> <span class="left more-links"> <a href="#">Checkout</a> <a href="#">Details</a> </span> </div>
+    </div>
         <!-- Brands -->
         <div class="brands">
           <h3>Brands</h3>
